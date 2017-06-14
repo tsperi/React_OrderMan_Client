@@ -99,21 +99,21 @@ The project is broken down into 3 milestones.
 
 * [Milestone 1 Instructions](https://github.com/TalkRise/React_OrderMan_Client/blob/master/docs/m1_instructions.md)
 * [Milestone 1 Solution](https://github.com/TalkRise/React_OrderMan_Client/tree/m1_complete)
-* [Milestone 1 Demo](https://react-orderman-m1.herokuapp.com/#/)
+* [Milestone 1 Demo](https://react-orderman-client-m1.herokuapp.com/#/)
 
 
 ### Milestone 2 - Authentication and Customers
 
 * [Milestone 2 Instructions](https://github.com/TalkRise/React_OrderMan_Client/blob/master/docs/m2_instructions.md)
 * [Milestone 2 Solution](https://github.com/TalkRise/React_OrderMan_Client/tree/m2_complete)
-* [Milestone 2 Demo](https://react-orderman-m2.herokuapp.com/#/)
+* [Milestone 2 Demo](https://react-orderman-client-m2.herokuapp.com/#/)
 
 
 ### Milestone 3 - Orders
 
 * [Milestone 3 Instructions](https://github.com/TalkRise/React_OrderMan_Client/blob/master/docs/m3_instructions.md)
 * [Milestone 3 Solution](https://github.com/TalkRise/React_OrderMan_Client/tree/m3_complete)
-* [Milestone 3 Demo](https://react-orderman-m3.herokuapp.com/#/)
+* [Milestone 3 Demo](https://react-orderman-client-m3.herokuapp.com/#/)
 
 ## License
 This project is released under the [MIT license](MIT-LICENSE). Go nuts!
