@@ -69,12 +69,7 @@ You will also need [Yarn](https://yarnpkg.com/en/).
 
 ## Setup
 
-**There are two ways to start learning on this project:**
-
-1. *Fork it* (Recommended)
-2. *Clone it* (This will prohibit you from deploying your changes to a production environment)
-
-**We recommend forking this project in order to push your changes to your own production environment.**
+**Create your own fork of the repo using [GitHub Classroom](https://classroom.github.com/assignment-invitations/931fbed9d673721641190f2925e7f991)**
 
 **This project is accompanied by a Node-Express backend that serves as the API for this React front-end. You will need to run this API to retrieve stock information.**
 
