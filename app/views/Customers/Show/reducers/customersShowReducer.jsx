@@ -2,7 +2,10 @@
  * GENERAL NOTES
  * @author TalkRise <admin@talkrise.com>
  *
- * @description This file contains a synchronous Redux reducers with key "customersShow". This reducer is solely responsible for maintaining info about a single Customer information.
+ * @description Redux reducer "customersShow".
+ *
+ * @description This reducer is solely responsible for maintaining info about a single of Customer.
+ *
  *
  * initialState = {
  *   isFetching: false,

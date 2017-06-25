@@ -2,7 +2,9 @@
  * GENERAL NOTES
  * @author TalkRise <admin@talkrise.com>
  *
- * @description This connected Navbar component represents a Navbar at the top of every authenticated page. This will nest inside the AuthenticatedLayout, and will contain several NavbarLink components.
+ * @description This connected component represents a Navbar at the top of every authenticated page.
+ *
+ * @description This nests inside the AuthenticatedLayout; contains several NavbarLinks.
  *
  * PropTypes = {
  *   pathname: PropTypes.string.isRequired,

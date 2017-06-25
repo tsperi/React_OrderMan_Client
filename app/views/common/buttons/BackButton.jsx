@@ -2,7 +2,11 @@
  * GENERAL NOTES
  * @author TalkRise <admin@talkrise.com>
  *
- * @description The BackButton component represents a button that onClick navigates the user back to the previous page using the hashHistory object.
+ * @description The BackButton component represents a reusable button.
+ *
+ * @description This button imports "history" which is exported from Routes.
+ *
+ * @description onClick, this button uses the history.goBack method.
  *
  * PropTypes = {};
  *

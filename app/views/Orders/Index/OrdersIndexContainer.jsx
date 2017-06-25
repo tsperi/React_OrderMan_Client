@@ -2,12 +2,14 @@
  * GENERAL NOTES
  * @author TalkRise <admin@talkrise.com>
  *
- * @description This connected OrdersIndexContainer is responsible for mounting an AuthenticatedLayout, and OrdersTable.
+ * @description This connected OrdersIndexContainer is responsible for listing all Orders.
+ *
+ * @description It uses an AuthenticatedLayout and an OrdersTable.
  *
  * propTypes = {
  *   customersIndex: ...,
- *   performCustomersIndexSearch: PropTypes.func.isRequired,
+ *   performOrdersIndexSearch: PropTypes.func.isRequired,
  * };
  *
- * @exports CustomersIndexContainer
+ * @exports OrdersIndexContainer
  */

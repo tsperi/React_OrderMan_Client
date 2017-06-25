@@ -2,7 +2,11 @@
  * GENERAL NOTES
  * @author TalkRise <admin@talkrise.com>
  *
- * @description The AuthenticatedLayout is a reusable layout for the authenticated pages of this site. Should display a Navbar, PageTitle, and the children passed into it.
+ * @description The AuthenticatedLayout is a layout for the authenticated pages of this site.
+ *
+ * @description Displays display a Navbar, PageTitle, and the children passed into it.
+ *
+ * @description If the showBackButton prop of this component is true, it displays BackButton.
  *
  * PropTypes = {
  *   children: PropTypes.element.isRequired,

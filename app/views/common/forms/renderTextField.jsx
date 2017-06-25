@@ -4,6 +4,10 @@
  *
  * @description A pure functional component that renders a reusable text input.
  *
+ * @description This component is used with Redux Form.
+ *
+ * @description It should display a label and text input with an optional validation message.
+ *
  * PropTypes = {
  *   disabled: PropTypes.bool,
  *   input: PropTypes.any.isRequired,

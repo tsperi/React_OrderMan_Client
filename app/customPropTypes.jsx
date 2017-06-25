@@ -2,9 +2,12 @@
  * GENERAL NOTES
  * @author TalkRise <admin@talkrise.com>
  *
- * @description Custom propTypes declarations. We create specific propTypes shapes that we can reuse throughout the application.
+ * @description Custom propTypes declarations.
  *
- * @example When ready you can view appropriate PropTypes here: https://github.com/TalkRise/React_OrderMan_Client/blob/m2_complete/app/customPropTypes.jsx
+ * @description We create specific propTypes shapes that we can reuse throughout the application.
+ *
+ * @example When ready you can view appropriate PropTypes here:
+ * https://github.com/TalkRise/React_OrderMan_Client/blob/m2_complete/app/customPropTypes.jsx
  */
 
 
@@ -24,5 +27,3 @@ export const ExamplePropType = PropTypes.shape({
   message: PropTypes.string.isRequired,
   customers: PropTypes.arrayOf(CustomerPropType).isRequired,
 });
-
-

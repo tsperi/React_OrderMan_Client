@@ -2,7 +2,10 @@
  * GENERAL NOTES
  * @author TalkRise <admin@talkrise.com>
  *
- * @description This connected CustomersShowContainer is responsible for mounting an AuthenticatedLayout, and CustomerDetailsForm.
+ * @description Connected CustomersShowContainer shows and edits Customer info.
+ *
+ * @description It will use the CustomerDetails form populated with initialValues.
+ *
  *
  * propTypes = {
  *   customersShow: ...,

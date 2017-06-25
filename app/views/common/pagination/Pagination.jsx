@@ -2,7 +2,20 @@
  * GENERAL NOTES
  * @author TalkRise <admin@talkrise.com>
  *
- * @description The Pagination component represents a reusable pagination component that can be used with tables and lists. It can use Bootstrap's pagination component, with a variable number of pages, and click handlers to change the page.
+ * @description The represents a reusable pagination component that can be used with tables.
+ *
+ * @description Has a variable number of pages, and click handlers to change the page.
+ *
+ * @description We'll cover the logic of this in class!
+ *
+ * @description This component takes two props:
+ *     handlePageChange - function to handle clicking on a new page number
+ *     pagination - object of pagination results
+ *         total - total number of results
+ *         limit - the number of results per page
+ *         page - the page number
+ *         pages - the total number of pages
+ *
  *
  * PropTypes = {
  *   handlePageChange: PropTypes.func.isRequired,

@@ -20,6 +20,7 @@ import UnauthenticatedContainer from './Unauthenticated/UnauthenticatedContainer
 
 
 // Creating history
+// MAKE SURE TO EXPORT THIS HISTORY
 const history = createHashHistory();
 
 

@@ -2,7 +2,9 @@
  * GENERAL NOTES
  * @author TalkRise <admin@talkrise.com>
  *
- * @description This component is responsible for displaying a information about a Customer. It can be used to edit a given Customer or Create a new one.
+ * @description This component is responsible for displaying a information about a Customer.
+ *
+ * @description Redux-form that performs validation and uses renderTextField for it's Fields.
  *
  * propTypes = {
  *   invalid: PropTypes.bool.isRequired,
