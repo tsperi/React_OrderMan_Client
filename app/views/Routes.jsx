@@ -16,12 +16,12 @@ import {
 
 
 // Page imports
+import CustomersContainer from './Customers/CustomersContainer';
 import UnauthenticatedContainer from './Unauthenticated/UnauthenticatedContainer';
 
 
 // Creating history
-// MAKE SURE TO EXPORT THIS HISTORY
-const history = createHashHistory();
+export const history = createHashHistory();
 
 
 /**
@@ -38,6 +38,10 @@ export default class Routes extends Component {
     return (
       <Router history={history}>
         <Switch>
+          <Route
+            path="/customers"
+            component={CustomersContainer}
+          />
           <Route
             path="/"
             component={UnauthenticatedContainer}

@@ -10,3 +10,26 @@
  *
  * @exports CustomersContainer
  */
+
+
+// Module imports
+import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
+
+
+// Container imports
+import CustomersIndexContainer from './Index/CustomersIndexContainer';
+
+export default class CustomersContainer extends Component {
+  render() {
+    return (
+      <Switch>
+        <Route
+          path="/customers"
+          component={CustomersIndexContainer}
+        />
+        {/* Your other routes go here */}
+      </Switch>
+    );
+  }
+}
