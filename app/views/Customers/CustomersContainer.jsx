@@ -18,12 +18,18 @@ import { Switch, Route } from 'react-router-dom';
 
 
 // Container imports
+import CustomersCreateContainer from './Create/CustomersCreateContainer';
 import CustomersIndexContainer from './Index/CustomersIndexContainer';
+
 
 export default class CustomersContainer extends Component {
   render() {
     return (
       <Switch>
+        <Route
+          path="/customers/create"
+          component={CustomersCreateContainer}
+        />
         <Route
           path="/customers"
           component={CustomersIndexContainer}
