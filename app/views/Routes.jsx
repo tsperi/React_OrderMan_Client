@@ -7,10 +7,11 @@
 // Module imports
 import React, { Component } from 'react';
 import createHashHistory from 'history/createHashHistory';
+import { Provider } from 'react-redux';
+import { ConnectedRouter } from 'react-router-redux';
 
 import {
   Route,
-  Router,
   Switch,
 } from 'react-router-dom';
 
@@ -19,10 +20,11 @@ import {
 import CustomersContainer from './Customers/CustomersContainer';
 import UnauthenticatedContainer from './Unauthenticated/UnauthenticatedContainer';
 
+// Store Import
+import store from '../store/configureStore';
 
 // Creating history
-export const history = createHashHistory();
-
+export const history = createHashHistory(); // allowing store to listen in on changes
 
 /**
  * @class Routes
@@ -36,18 +38,20 @@ export const history = createHashHistory();
 export default class Routes extends Component {
   render() {
     return (
-      <Router history={history}>
-        <Switch>
-          <Route
-            path="/customers"
-            component={CustomersContainer}
-          />
-          <Route
-            path="/"
-            component={UnauthenticatedContainer}
-          />
-        </Switch>
-      </Router>
+      <Provider store={store}>
+        <ConnectedRouter history={history}>
+          <Switch>
+            <Route
+              path="/customers"
+              component={CustomersContainer}
+            />
+            <Route
+              path="/"
+              component={UnauthenticatedContainer}
+            />
+          </Switch>
+        </ConnectedRouter>
+      </Provider>
     );
   }
 }

@@ -1,0 +1,4 @@
+1) Had to create my own .env file to add API_BASE
+2) In app/views/Routes.jsx, added the store import and updated props
+3) needed to update yarn to latest: yarn add react-router-redux@next
+4) npm run dev vs yarn dev
