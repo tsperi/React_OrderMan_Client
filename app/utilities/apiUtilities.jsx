@@ -52,10 +52,10 @@
  export const getHeaders = () => {
    const headers = BASE_HEADERS;
 
-   const accessToken = store.getState().auth.access_token;
-   if (accessToken) {
-     headers.Authorization = accessToken;
-   }
+  //  const accessToken = store.getState().auth.access_token;
+  //  if (accessToken) {
+  //    headers.Authorization = accessToken;
+  //  }
 
    return { headers };
  };

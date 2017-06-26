@@ -19,6 +19,8 @@ import {
 // Page imports
 import CustomersContainer from './Customers/CustomersContainer';
 import UnauthenticatedContainer from './Unauthenticated/UnauthenticatedContainer';
+import protectedHOC from './common/hoc/protected';
+import notProtectedHOC from './common/hoc/notProtected';
 
 // Store Import
 import store from '../store/configureStore';
@@ -43,11 +45,11 @@ export default class Routes extends Component {
           <Switch>
             <Route
               path="/customers"
-              component={CustomersContainer}
+              component={protectedHOC(CustomersContainer)}
             />
             <Route
               path="/"
-              component={UnauthenticatedContainer}
+              component={notProtectedHOC(UnauthenticatedContainer)}
             />
           </Switch>
         </ConnectedRouter>

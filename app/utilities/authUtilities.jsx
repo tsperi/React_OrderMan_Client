@@ -24,7 +24,6 @@
    }
  };
 
-
  /**
   * @function isNotAuthenticated
   * @description If authenticated, an accessing non-protected page,

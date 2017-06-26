@@ -46,7 +46,7 @@ export default (reduxState = initialState, action) => {
         isFetching: false,
         error: payload.error,
       };
-  default:
-    return reduxState;
-  } 
+    default:
+      return reduxState;
+  }
 };

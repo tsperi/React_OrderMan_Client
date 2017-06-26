@@ -20,11 +20,17 @@ import { reducer as formReducer } from 'redux-form';
 
 // custom Imports
 import signupReducer from '../views/Unauthenticated/reducers/signupReducer';
+import loginReducer from '../views/Unauthenticated/reducers/signupReducer';
+import authReducer from '../views/Unauthenticated/reducers/authReducer';
+import customersCreateReducer from '../views/Customers/Create/reducers/customersCreateReducer';
 
 const appReducer = combineReducers({
   form: formReducer,
   routing: routerReducer,
   signup: signupReducer,
+  login: loginReducer,
+  auth: authReducer,
+  customerCreate: customersCreateReducer,
 });
 
 export default (state,action) => appReducer(state,action);
