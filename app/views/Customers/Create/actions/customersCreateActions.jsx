@@ -23,7 +23,7 @@ const receiveCustomersCreateSuccess = () => ({
   type: RECEIVE_CUSTOMERS_CREATE_SUCCESS,
 });
 
-const receiveCustersCreateFailure = error => ({
+const receiveCustomersCreateFailure = error => ({
   type: RECEIVE_CUSTOMERS_CREATE_FAILURE,
   payload: {
     error,
@@ -40,7 +40,7 @@ export const performCreateCustomer = (customerData) => {
         history.push('/customers');
       })
       .catch((error) => {
-        dispatch(receiveCustersCreateFailure(error));
+        dispatch(receiveCustomersCreateFailure(error));
       });
   };
 };

@@ -15,9 +15,15 @@
 
 // Module imports
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
+// actions import
+import { performCreateCustomer } from './actions/customersCreateActions';
 
-export default class CustomersCreateContainer extends Component {
+// component import
+import { CustomerDetailsForm } from '../Show/components/CustomerDetailsForm';
+
+class CustomersCreateContainer extends Component {
   render() {
     return (
       <div>
@@ -27,7 +33,19 @@ export default class CustomersCreateContainer extends Component {
           <br />
           Only authenticated users should see this!
         </h3>
+        <CustomerDetailsForm />
       </div>
     );
   }
 }
+
+const mapStateToProps = state => ({
+  customersCreate: state.customersCreate,
+  customerCreateForm: state.form.CustomerDetailsForm,
+});
+
+const mapDispatchToProps = () => ({
+  performCreateCustomer,
+});
+
+export default connect(mapStateToProps, mapDispatchToProps())(CustomersCreateContainer);

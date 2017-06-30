@@ -53,6 +53,8 @@ class UnauthenticatedContainer extends Component {
      */
     this.login = (event) => {
       event.preventDefault();
+      const values = this.props.loginForm.values;
+      this.props.performLogin(values);
     };
   }
 

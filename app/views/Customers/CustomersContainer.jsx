@@ -20,6 +20,7 @@ import { Switch, Route } from 'react-router-dom';
 // Container imports
 import CustomersCreateContainer from './Create/CustomersCreateContainer';
 import CustomersIndexContainer from './Index/CustomersIndexContainer';
+import CustomersShowContainer from './Show/CustomersShowContainer';
 
 
 export default class CustomersContainer extends Component {
@@ -39,3 +40,7 @@ export default class CustomersContainer extends Component {
     );
   }
 }
+
+CustomersContainer.propTypes = {};
+
+CustomersContainer.defaultProps = {};

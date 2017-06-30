@@ -33,4 +33,4 @@ const appReducer = combineReducers({
   customerCreate: customersCreateReducer,
 });
 
-export default (state,action) => appReducer(state,action);
+export default (state, action) => appReducer(state, action);
